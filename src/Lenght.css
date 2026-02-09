@@ -1,0 +1,17 @@
+#square
+{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+}
+div
+{
+    margin: 20px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+button
+{
+    margin: 5px;
+}

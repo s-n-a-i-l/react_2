@@ -5,6 +5,7 @@ import Hello from './Hello';
 import Lenght from './Lenght';
 import Range from './Range';
 import Form from './Form';
+import Converter from './Converter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Lenght />
       <Range />
       <Form />
+      <Converter />
     </div>
   );
 }

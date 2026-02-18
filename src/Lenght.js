@@ -20,18 +20,18 @@ class Lenght extends React.Component
 
     inc =() =>
     {
-        this.setState({length: this.state.lenght + 10});
+        this.setState({lenght: this.state.lenght + 10});
         this.setLenght();
     };
 
     dec =() =>
     {
-        this.setState({length: this.state.lenght - 10});
+        this.setState({lenght: this.state.lenght - 10});
         this.setLenght();
     };
     reset=()=>
     {
-        this.setState({length: 100});
+        this.setState({lenght: 100});
         this.setLenght();
     };
 

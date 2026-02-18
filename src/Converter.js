@@ -33,7 +33,7 @@ convert = () => {
         return;
     }
 
-    const decimal = parseInt(num, parseInt(from));
+    const decimal = parseInt(num, parseInt(from));//число парс в from(cистему), т.е 1100 в 2
 
     if (isNaN(decimal)) {
         this.setState({ newNum: "Некорректное число для выбранной системы" });
